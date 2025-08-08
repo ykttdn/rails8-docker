@@ -25,4 +25,5 @@ jobs:
           rubocop_challenger go \
             --email="rubocop-challenger@example.com" \
             --name="Rubocop Challenger" \
-            --base-branch=main --mode=random --only-exclude
+            --base-branch=main --mode=random \
+            --no-auto-gen-timestamp --only-exclude --exclude-limit=999999
