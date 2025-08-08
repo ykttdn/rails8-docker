@@ -101,7 +101,6 @@ Style/ArgumentsForwarding:
   Exclude:
     - 'bin/setup'
 
-
 # Offense count: 34
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: EnforcedStyle.
