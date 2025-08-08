@@ -108,7 +108,7 @@ Style/FetchEnvVar:
   Exclude:
     - 'bin/bundle'
 
-# Offense count: 35
+# Offense count: 34
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: always, always_true, never
@@ -129,7 +129,6 @@ Style/FrozenStringLiteralComment:
     - 'bin/jobs'
     - 'bin/rails'
     - 'bin/rake'
-    - 'bin/rubocop'
     - 'bin/setup'
     - 'bin/thrust'
     - 'config.ru'
@@ -176,7 +175,7 @@ Style/PerlBackrefs:
 Style/SpecialGlobalVars:
   EnforcedStyle: use_perl_names
 
-# Offense count: 137
+# Offense count: 131
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: EnforcedStyle, ConsistentQuotesInMultiline.
 # SupportedStyles: single_quotes, double_quotes
@@ -193,7 +192,6 @@ Style/StringLiterals:
     - 'bin/kamal'
     - 'bin/rails'
     - 'bin/rake'
-    - 'bin/rubocop'
     - 'bin/setup'
     - 'bin/thrust'
     - 'config.ru'
