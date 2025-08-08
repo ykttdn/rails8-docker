@@ -46,11 +46,6 @@ Layout/SpaceInsideArrayLiteralBrackets:
     - 'config/initializers/devise.rb'
     - 'test/application_system_test_case.rb'
 
-# Offense count: 4
-# This cop supports safe autocorrection (--autocorrect).
-Layout/SpaceInsidePercentLiteralDelimiters:
-  Exclude:
-    - 'Gemfile'
 
 # Offense count: 1
 # Configuration parameters: AllowedMethods, AllowedPatterns, Max.
