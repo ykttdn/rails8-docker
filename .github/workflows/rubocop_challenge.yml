@@ -23,6 +23,6 @@ jobs:
         run: |
           gem install rubocop_challenger
           rubocop_challenger go \
-            --email="rubocop-challenger@example.com"
+            --email="rubocop-challenger@example.com" \
             --name="Rubocop Challenger" \
             --base-branch=main --mode=random --only-exclude
