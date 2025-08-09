@@ -20,11 +20,6 @@ Layout/EmptyLineAfterGuardClause:
   Exclude:
     - 'bin/bundle'
 
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
-Layout/EmptyLines:
-  Exclude:
-    - 'db/migrate/20250701140834_devise_create_users.rb'
 
 # Offense count: 4
 # This cop supports safe autocorrection (--autocorrect).
