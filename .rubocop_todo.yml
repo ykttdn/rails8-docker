@@ -175,7 +175,6 @@ Style/PerlBackrefs:
 Style/SpecialGlobalVars:
   EnforcedStyle: use_perl_names
 
-
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: .
