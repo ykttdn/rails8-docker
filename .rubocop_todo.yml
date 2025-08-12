@@ -175,41 +175,6 @@ Style/PerlBackrefs:
 Style/SpecialGlobalVars:
   EnforcedStyle: use_perl_names
 
-# Offense count: 131
-# This cop supports safe autocorrection (--autocorrect).
-# Configuration parameters: EnforcedStyle, ConsistentQuotesInMultiline.
-# SupportedStyles: single_quotes, double_quotes
-Style/StringLiterals:
-  Exclude:
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'app/mailers/application_mailer.rb'
-    - 'bin/brakeman'
-    - 'bin/bundle'
-    - 'bin/dev'
-    - 'bin/importmap'
-    - 'bin/jobs'
-    - 'bin/kamal'
-    - 'bin/rails'
-    - 'bin/rake'
-    - 'bin/setup'
-    - 'bin/thrust'
-    - 'config.ru'
-    - 'config/application.rb'
-    - 'config/boot.rb'
-    - 'config/environment.rb'
-    - 'config/environments/development.rb'
-    - 'config/environments/production.rb'
-    - 'config/environments/test.rb'
-    - 'config/importmap.rb'
-    - 'config/initializers/assets.rb'
-    - 'config/initializers/devise.rb'
-    - 'config/puma.rb'
-    - 'config/routes.rb'
-    - 'db/migrate/20250701140834_devise_create_users.rb'
-    - 'test/application_system_test_case.rb'
-    - 'test/test_helper.rb'
-
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: .
