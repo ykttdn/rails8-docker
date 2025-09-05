@@ -141,7 +141,6 @@ Style/IfUnlessModifier:
   Exclude:
     - 'bin/bundle'
 
-
 # Offense count: 1
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: RequireEnglish.
