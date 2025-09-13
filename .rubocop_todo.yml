@@ -70,6 +70,13 @@ Rails/BulkChangeTable:
   Exclude:
     - 'db/migrate/20250701140834_devise_create_users.rb'
 
+# Offense count: 1
+# This cop supports safe autocorrection (--autocorrect).
+# Configuration parameters: NotNilAndNotEmpty, NotBlank, UnlessBlank.
+Rails/Present:
+  Exclude:
+    - 'bin/bundle'
+
 # Offense count: 2
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: AllowOnlyRestArgument, UseAnonymousForwarding, RedundantRestArgumentNames, RedundantKeywordRestArgumentNames, RedundantBlockArgumentNames.
