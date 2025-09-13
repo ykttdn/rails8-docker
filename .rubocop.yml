@@ -8,11 +8,20 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
   Exclude:
+    - 'app/assets/**/*'
     - 'db/cable_schema.rb'
     - 'db/cache_schema.rb'
     - 'db/queue_schema.rb'
     - 'db/schema.rb'
-    - 'vendor/bundle/**/*'
+    - 'log/**/*'
+    - 'public/**/*'
+    - 'storage/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+
+Rails:
+  Exclude:
+    - 'bin/*'
 
 Style/Documentation:
   Enabled: false
