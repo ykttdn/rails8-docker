@@ -56,7 +56,6 @@ Metrics/PerceivedComplexity:
   Exclude:
     - 'bin/bundle'
 
-
 # Offense count: 1
 # Configuration parameters: Database, Include.
 # SupportedDatabases: mysql, postgresql
