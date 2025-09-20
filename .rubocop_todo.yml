@@ -56,12 +56,6 @@ Metrics/PerceivedComplexity:
   Exclude:
     - 'bin/bundle'
 
-# Offense count: 2
-# This cop supports safe autocorrection (--autocorrect).
-Performance/ConstantRegexp:
-  Exclude:
-    - 'bin/bundle'
-
 # Offense count: 1
 # Configuration parameters: Database, Include.
 # SupportedDatabases: mysql, postgresql
