@@ -64,7 +64,6 @@ Rails/BulkChangeTable:
   Exclude:
     - 'db/migrate/20250701140834_devise_create_users.rb'
 
-
 # Offense count: 34
 # This cop supports unsafe autocorrection (--autocorrect-all).
 # Configuration parameters: EnforcedStyle.
