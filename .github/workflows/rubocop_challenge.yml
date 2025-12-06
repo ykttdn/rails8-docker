@@ -26,5 +26,4 @@ jobs:
             --email="rubocop-challenger@example.com" \
             --name="Rubocop Challenger" \
             --base-branch=main --mode=least_occurrence \
-            --only-safe-autocorrect \
             --no-auto-gen-timestamp --only-exclude --exclude-limit=999999
