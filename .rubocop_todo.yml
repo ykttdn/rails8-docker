@@ -94,9 +94,3 @@ Style/FrozenStringLiteralComment:
     - 'db/seeds.rb'
     - 'test/application_system_test_case.rb'
     - 'test/test_helper.rb'
-
-# Offense count: 3
-# This cop supports safe autocorrection (--autocorrect).
-Style/IfUnlessModifier:
-  Exclude:
-    - 'bin/bundle'
